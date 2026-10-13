@@ -1,0 +1,12 @@
+# The built binary shares the module's name, so it is anchored: an unanchored
+# "colorfont" would also ignore the cmd/colorfont/ source directory.
+/colorfont
+
+# A scratch directory run.sh uses when it runs the bitmap-decoding helper.
+/.runsh-tmp/
+
+# Editors and OS noise.
+*~
+.DS_Store
+.idea/
+.vscode/
